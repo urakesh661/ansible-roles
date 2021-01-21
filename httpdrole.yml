@@ -1,0 +1,7 @@
+---
+- name: use httpd role playbook
+  hosts: centos
+
+  roles:
+    - role: httpd
+      

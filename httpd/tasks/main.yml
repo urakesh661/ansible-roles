@@ -1,0 +1,10 @@
+---
+# tasks file for httpd
+- name: Install httpd on CentOS
+  yum:
+    name: httpd
+    state: latest
+  
+- name: Copy file to remote centos tmp directory
+  copy: src=/home/rocky2311/Desktop/Ansible/install_java.yaml dest=/tmp
+  notify: restart httpd service      
