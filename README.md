@@ -8,4 +8,4 @@ Content of hosts file:
 
 [centos]
 
-ip of your host ansible_user=root
+ip_of_your_host ansible_user=root
